@@ -1,0 +1,10 @@
+1.安装laravel
+https://laravel.com/docs/5.5
+
+composer global require "laravel/installer"
+laravel new blog
+
+2.安装voyager
+https://github.com/dujuwen/voyager
+
+composer require tcg/voyager
