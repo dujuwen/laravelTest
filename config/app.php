@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -103,8 +103,9 @@ return [
     | will not be safe. Please do this before deploying an application!
     |
     */
-
-    'key' => env('APP_KEY'),
+    //  php artisan key:generate
+//     'key' => env('APP_KEY', 'base64:GhUN371G1ufmtWAkZJwt2fj2P502x2f17C0fSND1lZM='),
+    'key' => 'base64:GhUN371G1ufmtWAkZJwt2fj2P502x2f17C0fSND1lZM=',
 
     'cipher' => 'AES-256-CBC',
 

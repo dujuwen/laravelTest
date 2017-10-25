@@ -8,3 +8,19 @@ laravel new blog
 https://github.com/dujuwen/voyager
 
 composer require tcg/voyager
+
+在根目录下配置db:
+DB_HOST=localhost
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+
+php artisan voyager:install --with-dummy
+
+php artisan voyager:admin your@email.com --create
+
+在运行项目之前记得配置key:
+php artisan key:generate
+把生成的key配置到文件.env或者aap.config中
+
+voyager使用文档：https://voyager.readme.io/docs
