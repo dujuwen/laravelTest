@@ -126,13 +126,12 @@ return [
         /*
          * Select default language
          */
-        'default' => 'zh_CN',
+        'default' => 'en',
 
         /*
          * Select languages that are supported.
          */
         'locales' => [
-            'zh_CN',
             'en',
         ],
     ],
@@ -197,7 +196,7 @@ return [
     |
     */
 
-    'primary_color' => '#22A7F0',
+    'primary_color' => '#118899',
 
     'show_dev_tips' => true, // Show development tip "How To Use:" in Menu and Settings
 

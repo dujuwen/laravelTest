@@ -1,3 +1,6 @@
+0.设置compoer镜像地址
+https://pkg.phpcomposer.com/
+
 1.安装laravel
 https://laravel.com/docs/5.5
 
@@ -24,3 +27,6 @@ php artisan key:generate
 把生成的key配置到文件.env或者aap.config中
 
 voyager使用文档：https://voyager.readme.io/docs
+
+3.安装了 laravel-admin
+http://laravel-admin.org/docs/#/zh/
